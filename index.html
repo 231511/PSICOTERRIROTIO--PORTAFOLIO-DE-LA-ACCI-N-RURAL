@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Psicoterritorio</title>
+  <style>
+    :root {
+      --principal: #1b3a3d; /* tono del logo */
+      --secundario: #e6f2f3; /* fondo suave */
+      --detalle: #4fb0c6; /* celeste del isotipo */
+      --fondo: #ffffff;
+      --texto: #1a1a1a;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--secundario);
+      color: var(--texto);
+    }
+
+    header {
+      background: linear-gradient(to right, var(--principal), var(--detalle));
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    header img {
+      max-height: 80px;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: var(--principal);
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 20px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--detalle);
+    }
+
+    main {
+      max-width: 1200px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    section {
+      margin-bottom: 50px;
+      background-color: var(--fondo);
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    section:hover {
+      transform: scale(1.01);
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+    }
+
+    h2 {
+      color: var(--principal);
+    }
+
+    footer {
+      background-color: var(--principal);
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    form input, form select, form textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0 16px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+    }
+
+    button {
+      background-color: var(--detalle);
+      color: white;
+      padding: 12px 24px;
+      font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #3ca3b8;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 12px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #cdebf2;
+    }
+
+    .imagen-destacada img, .tematica-img {
+      width: 100%;
+      border-radius: 12px;
+      margin-bottom: 20px;
+    }
+
+    .interactivo:hover {
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="/mnt/data/A_logo_for_\"Psicoterritorio\"_is_displayed,_consist.png" alt="Logotipo Psicoterritorio">
+    <h1>Psicoterritorio</h1>
+    <p>Capacitaciones virtuales para profesionales de la salud en zonas rurales</p>
+  </header>
+  <!-- OMITIDO POR ESPACIO -->
+</body>
+</html>
